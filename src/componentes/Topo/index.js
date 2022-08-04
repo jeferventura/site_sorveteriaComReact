@@ -7,7 +7,7 @@ export default function Topo(){
             <div className="top-bar">
                 <div className="top-bar__logotipo">
                     <figure>
-                        <img src="../../public/assets/logo.png" alt="logotipo" />
+                        <img src="assets/images/header/logo.png" alt="logotipo" />
                     </figure>
                 </div>
                 <div className="top-bar__navbar">
