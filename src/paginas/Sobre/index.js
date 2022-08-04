@@ -1,14 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import Topo from '../../componentes/Topo';
 
 const Sobre = () => {
     
     return(
-        <section>
+        <div className="container">
+            <Topo />
             <h1>Sobre</h1>
-            <Link to='/'>Voltar</Link>
-        </section>
+        </div>
     );
 
 }

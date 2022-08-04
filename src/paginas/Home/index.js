@@ -1,12 +1,14 @@
-import react from 'react';
-import { Link } from 'react-router-dom'
+//import react from 'react';
+//import { Link } from 'react-router-dom'
+
+//import component's pages
+import Topo from '../../componentes/Topo';
 
 export default function Home(){
-   
+
     return(
-        <main>
-                <h1>Home Page false</h1>
-                <Link to='/Sobre'>Sobre</Link>
-        </main>
+        <div className="container">
+            <Topo />
+        </div>
     );
 }
